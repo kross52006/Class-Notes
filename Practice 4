@@ -1,0 +1,16 @@
+public class Problem4
+{
+   public static void main(String[] args)
+   {
+      int points = 22;
+      int touchdowns = points / 8;
+      int leftoverPoints = points % 8;
+      int fieldGoals = leftoverPoints / 5;
+      int safteys = leftoverPoints % 5;
+      
+      System.out.println("Total Points: " + points);
+      System.out.println("Toachdowns: " + touchdowns);
+      System.out.println("Field Goals: " + fieldGoals);
+      System.out.println("Safteys: " + safteys);
+   }
+}
