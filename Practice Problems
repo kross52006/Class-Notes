@@ -1,0 +1,12 @@
+public class Chapter2PracticeProblems
+{
+   public static void main(String[] args)
+   {
+      int a = 9;
+      int b = 11;
+      // Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2))
+      double c = Math.sqrt(a * a + b * b);
+      
+      System.out.println("If a=" + a + " and b=" + b + ", then c is " + c + ".");
+   }
+}
