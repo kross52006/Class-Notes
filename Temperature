@@ -1,0 +1,12 @@
+public class Practice1
+{
+   public static void main(String[] args)
+   {
+      int tempC = 93;
+      
+      double tempF = 9.0 / 5.0 * tempC + 32;
+      
+      System.out.println("The temperature " + tempC + " degrees Celsius is "
+         + tempF + " degrees Fahrenheit.");
+   }
+}
