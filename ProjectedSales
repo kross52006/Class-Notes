@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class ChapterThree
+{
+   public static void main(String[] args)
+   {
+     Scanner meow = new Scanner(System.in);
+     System.out.println("Enter the total sales in dollars for the North Division:");
+     double northSales = meow.nextDouble();
+     System.out.println("Enter the total sales in dollars for the South Division:");
+     double southSales = meow.nextDouble();
+     
+     double projectedNorthSales = northSales + 0.10 * northSales;
+     double projectedSouthSales = southSales + 0.10 * southSales;
+     
+     System.out.printf("Projected sales for the North division are $%,.2f.%n", projectedNorthSales);
+     System.out.printf("Projected sales for the North division are $%,.2f.", projectedSouthSales);
+   }
+}
